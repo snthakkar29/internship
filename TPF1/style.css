@@ -1,0 +1,29 @@
+.content{
+    text-align: center;
+
+}
+.block{
+    border:1px solid black;
+    display:inline-block;
+    padding: 100px 100px;
+    margin: 10px 10px;
+    font-size: x-large;
+}
+.topnav img{
+    width: 100px;
+    height: 50px;
+}
+.foot{
+    position: absolute;
+    bottom: 1px;
+    width:100%;
+    text-align: center;
+    font-size: large;
+    background-color:black;
+    padding: 40px 15px;
+
+}
+.foot a{
+    color:white;
+    padding: 50px 50px;
+}
