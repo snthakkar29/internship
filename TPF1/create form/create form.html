@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>google form</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <div class="jobsearch">
+    <h1>JobSearch.com</h1>
+  </div>
+
+  <div class="account">
+    <h2>Create Your Account</h2>
+  </div>
+  <div class="section">
+    <h3>* Required Information</h3>
+  </div>
+
+    <div class="container">
+    <h3>Basic Information</h3>
+    </div>
+
+    <label for="email"><b>Email</b></label><span class="Required" id="i4" aria-label="Required question"> *</span>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label for="psw"><b>Password</b></label><span class="required" id="i4" aria-label="Required question"> *</span>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-retype"><b>Retype Password</b></label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="password" placeholder="Retype Password" name="psw-retype" required><br>
+
+    <label for="first name"><b>First Name</b> </label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="First name" name="first name" required><br>
+
+    <label for="last name"><b>Last Name</b> </label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Last name" name="last name" required><br>
+
+    <label for="phone number"><b>Phone Number</b> </label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Phone Number" name="phone number" required><br>
+
+    <label for="Address"><b>Address</b> </label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Address" name="Address" required><br>
+
+    <label for="city"><b>City</b> </label><span class="Required" id="i4" aria-label="Required question"> *</span>
+    <input type="text" placeholder="City" name="city" required><br>
+
+    <label for="Province"><b>Province</b></label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input list="Province" placeholder="Alberta"><br>
+    <datalist id="Province">
+      <option value="Alberta">
+      <option value="Gujarat">
+      <option value="Maharastra">
+      <option value="Punjab">
+      <option value="Haryana">
+    </datalist>
+
+    <label for="country"><b>Country</b> </label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Country" name="country" required><br>
+  
+
+
+  <div class="container">
+    <h3>Education</h3>
+  </div>
+
+    <label for="school"><b>School</b></label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="School" name="school" required><br>
+
+    <label for="program"><b>Program</b></label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Program" name="program" required><br>
+
+    <label for="education level"><b>Education Level</b></label><span class="Required" id="i4"
+      aria-label="Required question">
+      *</span>
+    <input list="Education Level" placeholder="Education status"><br>
+    <datalist id="Education Level">
+      <option value="Graduated">
+      <option value="Current Enrolled">
+      <option value="Did NotGraduated">
+    </datalist>
+
+    <label for="Graduation Date"><b>Graduation Date</b></label><span class="Required" id="i4"
+      aria-label="Required question"> *</span>
+    <input type="date" placeholder="Graduation Date" name="Graduation Date" required><br>
+
+
+
+  <div class="container">
+    <h3>Work Experience</h3>
+  </div>
+
+    <label for="Employer"><b>Employer</b></label> <span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Employer" name="Employer" required> <br>
+
+    <label for="Job Title"><b>Job Title</b></label> <span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="text" placeholder="Job Title" name="Job Title" required> <br>
+
+    <label for="job duty"><b>Job Duty</b></label> <span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <textarea name="message" placeholder="Job Duty" name="job duty" required> </textarea> <br>
+
+    <label for="worked year"><b>Worked Year</b></label> <span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="year" placeholder="Worked Year" name="Worked Year" required> <br>
+
+  
+
+  <div class="container">
+    <h3>Attachments</h3>
+  </div>
+
+    <label for="Attachments"><b>Attachments</b></label><span class="Required" id="i4" aria-label="Required question">
+      *</span>
+    <input type="file" placeholder="Attachments" name="attachments" required> <br>
+  </div>
+
+  <div class="clearfix"> <br>
+    <button type="button" class="cancelbtn">Reset</button>
+    <button type="submit" class="signupbtn">Apply</button>
+  
+  
+</body>
