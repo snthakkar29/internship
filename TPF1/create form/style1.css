@@ -37,3 +37,9 @@ cursor: pointer;
     padding: auto;
     font-size: small;
 }
+.label
+{
+    font-size: small;
+    text-align: center;
+    width: max-content;
+}
